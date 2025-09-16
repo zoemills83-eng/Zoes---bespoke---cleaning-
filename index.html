@@ -38,6 +38,186 @@
     .reviews-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:10px}
     .stars{letter-spacing:2px;font-size:14px;background:linear-gradient(135deg,var(--pink),var(--pink-deep));-webkit-background-clip:text;background-clip:text;color:transparent}
     .quote{font-style:italic;margin:8px 0 4px}.name{font-size:13px;color:var(--muted)}
+    .contact{display:grid;grid-template-columns:1.2fr .8fr;gap:22px}@media (max-width:820px){.contact{grid-template-columns:1fr}}
+    input,textarea{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--border);background:#0f0f11;color:#f6f2f3}textarea{min-height:120px;resize:vertical}
+    footer{padding:28px 0;text-align:center;border-top:1px solid var(--border)}footer .tiny{font-size:12px;background:linear-gradient(135deg,var(--pink),var(--pink-deep));-webkit-background-clip:text;background-clip:text;color:transparent}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <div class="brand">
+        <div class="logo-wrap">
+          <!-- Embedded logo as data URI for GitHub Pages friendliness -->
+          <img class="logo" alt="ZBCS round fairy logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR4nGNgYGD4DwABNwG6mCMwUQAAAABJRU5ErkJggg==" />
+        </div>
+        <div>
+          <div class="script big">Zoë’s Bespoke</div>
+          <div class="script mid">Cleaning Services</div>
+          <div class="tag">Professional • Reliable • Knowledgeable • Friendly • Fully Insured</div>
+          <div class="motto">Because your home deserves a little magic 🧚‍♀️</div>
+        </div>
+      </div>
+      <div class="cta">
+        <a class="btn btn-primary" href="tel:+447527669106">Call 07527 669106</a>
+        <a class="btn btn-ghost" href="mailto:zoesbespokecleaning@gmail.com">Email us</a>
+        <a class="btn btn-ghost" href="https://wa.me/447527669106" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+      <p class="tag">Brentwood & surrounding areas • Public Liability Insurance</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="services">
+      <div class="container">
+        <h2>Bespoke cleaning that fits your life</h2>
+        <div class="grid">
+          <div class="card"><strong>Regular Slots</strong><p class="tag">Weekly • Fortnightly • Monthly</p>
+            <ul class="list"><li>Whole-home cleaning & tidy</li><li>Kitchen surfaces, cupboards & splashbacks</li><li>Bathrooms sanitised</li><li>Vacuum carpets, mop floors</li><li>Dusting high & low</li><li>Internal windows & mirrors</li><li>Bed making / linen change</li><li>Switches, handles & banisters</li><li>Finishing touches</li></ul></div>
+          <div class="card"><strong>One-Off & Deep Cleans</strong>
+            <ul class="list"><li>Top-to-bottom deep clean</li><li>Fridge/freezer clean</li><li>Oven clean (add-on)</li><li>Inside cupboards</li><li>Limescale removal</li><li>Detailed dusting</li><li>After-party reset</li><li>Move-in sparkle</li></ul></div>
+          <div class="card"><strong>End of Tenancy & Builders</strong>
+            <ul class="list"><li>Inventory-standard end of tenancy</li><li>Appliances in/out</li><li>Skirtings, sockets, switches</li><li>Dust & debris removal</li><li>Final “sparkle clean”</li></ul></div>
+          <div class="card"><strong>Commercial & Office</strong>
+            <ul class="list"><li>Desks & receptions</li><li>Kitchenettes & staff areas</li><li>Toilets sanitised</li><li>Bins emptied</li><li>Out-of-hours options</li></ul></div>
+          <div class="card"><strong>Extras</strong>
+            <ul class="list"><li>Inside windows</li><li>Wall spot-cleaning</li><li>Bed linen change</li><li>Appliance add-ons</li><li>Fragrance “sparkle spritz”</li></ul></div>
+          <div class="card"><strong>Areas Covered</strong><p>Brentwood & surrounding areas in Essex.</p>
+            <span class="tag">🧚‍♀️ Bespoke because I cater to your individual needs</span></div>
+        </div>
+      </div>
+    </section>
+<section id="reviews">
+  <div class="container">
+    <h2>Reviews</h2>
+    <div class="reviews-grid">
+      <div class="card">
+        <div class="stars">★★★★★</div>
+        <p class="quote">“So thorough and friendly — our home has never looked better.”</p>
+        <p class="name">— Charlotte P.</p>
+      </div>
+      <div class="card">
+        <div class="stars">★★★★★</div>
+        <p class="quote">“Reliable, trustworthy and the attention to detail is amazing.”</p>
+        <p class="name">— Jamie R.</p>
+      </div>
+      <div class="card">
+        <div class="stars">★★★★★</div>
+        <p class="quote">“End of tenancy was spotless — deposit back in full!”</p>
+        <p class="name">— Lettings Client</p>
+      </div>
+      <div class="card">
+        <div class="stars">★★★★★</div>
+        <p class="quote">“Flexible, professional and lovely to have in the house. Highly recommend.”</p>
+        <p class="name">— Nina S.</p>
+      </div>
+    </div>
+
+    <div class="review-buttons">
+      <a class="btn btn-primary" href="mailto:zoesbespokecleaning@gmail.com?subject=Review%20for%20Zo%C3%AB%E2%80%99s%20Bespoke%20Cleaning%20Services">Leave a review by email</a>
+      <a class="btn btn-ghost" href="https://www.facebook.com/share/1Jhp4sPLrf/" target="_blank" rel="noopener">Leave a Facebook review</a>
+    </div>
+
+    <p class="tag" style="text-align:center">
+      Already a customer? Thank you! Your feedback means the world ✨
+    </p>
+  </div>
+</section>
+    <section id="reviews">
+      <div class="container"><h2>Reviews</h2>
+        <div class="reviews-grid">
+          <div class="card"><div class="stars">★★★★★</div><p class="quote">“So thorough and friendly — our home has never looked better.”</p><p class="name">— Charlotte P.</p></div>
+          <div class="card"><div class="stars">★★★★★</div><p class="quote">“Reliable, trustworthy and the attention to detail is amazing.”</p><p class="name">— Jamie R.</p></div>
+          <div class="card"><div class="stars">★★★★★</div><p class="quote">“End of tenancy was spotless — deposit back in full!”</p><p class="name">— Lettings Client</p></div>
+          <div class="card"><div class="stars">★★★★★</div><p class="quote">“Flexible, professional and lovely to have in the house. Highly recommend.”</p><p class="name">— Nina S.</p></div>
+        </div>
+        <div class="review-buttons"><style>
+  .review-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .review-buttons a {
+    flex: 1;
+    min-width: 160px;
+    max-width: 220px;
+    text-align: center;
+  }
+        </style>
+  <!-- your two buttons go here -->
+        </div><div class="reviews-cta">
+          <a class="btn btn-primary" href="mailto:zoesbespokecleaning@gmail.com?subject=Review%20for%20Zo%C3%AB%E2%80%99s%20Bespoke%20Cleaning%20Services">Leave a review by email</a>
+          <a class="btn btn-ghost" href="https://www.facebook.com/share/1Jhp4sPLrf/" target="_blank" rel="noopener">Leave a Facebook review</a>
+        </div>
+        <p class="tag" style="text-align:center">Already a customer? Thank you! Your feedback means the world ✨</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container contact">
+        <div><h2>Get a quick quote</h2>
+          <form onsubmit="alert('Thank you! I’ll be in touch shortly.');return false;">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Email address" required>
+            <input type="tel" name="phone" placeholder="Phone number (optional)">
+            <textarea name="message" placeholder="Tell me about your clean"></textarea>
+            <button class="btn btn-primary" type="submit">Send enquiry</button>
+            <p class="tag">Prefer email or WhatsApp? <a href="mailto:zoesbespokecleaning@gmail.com">zoesbespokecleaning@gmail.com</a> · <a href="https://wa.me/447527669106" target="_blank" rel="noopener">Chat on WhatsApp</a></p>
+          </form>
+        </div>
+        <aside>
+          <div class="card"><strong>Contact</strong><p><a href="tel:+447527669106">07527 669106</a><br><a href="mailto:zoesbespokecleaning@gmail.com">zoesbespokecleaning@gmail.com</a></p><p class="tag">Mon–Fri 9:00–18:00</p></div>
+          <div class="card"><strong>Why choose ZBCS?</strong>
+            <ul class="tag"><li>Trusted by many happy regular customers</li><li>Flexible, bespoke plans</li><li>End-of-tenancy & builders clean specialists</li></ul></div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container"><div class="tiny">© <span id="year"></span> Zoë’s Bespoke Cleaning Services • Brentwood, Essex • Public Liability Insurance • All rights reserved.</div></div></footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html> html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zoë’s Bespoke Cleaning Services | Brentwood Cleaner</title>
+  <meta name="description" content="Professional, reliable, knowledgeable & friendly cleaner in Brentwood & surrounding areas. Fully insured. Weekly, fortnightly, monthly, one-offs, end of tenancy, builders & office cleans." />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root{--pink:#d88fad;--pink-deep:#c0648f;--bg:#0a0a0b;--panel:#121214;--text:#f6f2f3;--muted:#edd1da;--border:rgba(216,143,173,.35)}
+    *{box-sizing:border-box}html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Poppins,sans-serif}
+    a{color:var(--pink);text-decoration:none}.container{max-width:1140px;margin-inline:auto;padding:clamp(16px,2.6vw,28px)}
+    body:before,body:after{content:"";position:fixed;left:0;right:0;height:10px;z-index:1;pointer-events:none;
+      background:radial-gradient(circle at 10% 50%, rgba(255,225,240,.6) 0 2px, transparent 3px),
+                 radial-gradient(circle at 30% 50%, rgba(248,190,220,.6) 0 2px, transparent 3px),
+                 radial-gradient(circle at 60% 50%, rgba(232,150,190,.75) 0 2px, transparent 3px),
+                 radial-gradient(circle at 85% 50%, rgba(216,143,173,.95) 0 2px, transparent 3px);
+      background-size:120px 10px,140px 10px,160px 10px,180px 10px;background-repeat:repeat-x;opacity:.5;animation:shimmer 8s linear infinite}
+    body:after{bottom:0}body:before{top:0}
+    @keyframes shimmer{from{background-position:0 0,0 0,0 0,0 0}to{background-position:120px 0,140px 0,160px 0,180px 0}}
+    .hero{text-align:center;padding:64px 0 36px;border-bottom:1px solid var(--border)}
+    .brand{display:flex;align-items:center;justify-content:center;gap:22px;flex-wrap:wrap}
+    .logo-wrap{position:relative;width:min(420px,80vw);aspect-ratio:1;border-radius:999px;overflow:hidden;box-shadow:0 0 0 10px rgba(216,143,173,.12)}
+    .logo-wrap .logo{width:100%;height:100%;object-fit:cover;filter:hue-rotate(320deg) saturate(1.25) brightness(1.05) contrast(1.05)}
+    .script{font-family:"Great Vibes",cursive;background:linear-gradient(135deg,var(--pink),var(--pink-deep));-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1;margin:8px 0 4px}
+    .script.big{font-size:64px}.script.mid{font-size:48px}.tag{font-weight:500;color:var(--muted)}
+    .motto{margin-top:6px;font-style:italic;font-size:15px;background:linear-gradient(135deg,var(--pink),var(--pink-deep));-webkit-background-clip:text;background-clip:text;color:transparent}
+    .btn{appearance:none;border:none;border-radius:999px;padding:14px 20px;font-weight:600;letter-spacing:.2px;cursor:pointer;transition:.2s}
+    .btn-primary{background:linear-gradient(135deg,var(--pink),var(--pink-deep));color:#fff;box-shadow:0 10px 28px rgba(216,143,173,.35)}
+    .btn-ghost{background:transparent;border:2px solid var(--pink);color:var(--pink)}
+    .cta{margin-top:16px;display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+    section{padding:36px 0;border-top:1px solid var(--border)}
+    h2{font-family:"Great Vibes",cursive;font-weight:400;font-size:36px;margin:0 0 14px;color:transparent;background:linear-gradient(135deg,var(--pink),var(--pink-deep));-webkit-background-clip:text;background-clip:text}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+    .card{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:20px}
+    .list li{list-style:none;padding-left:20px;position:relative}
+    .list li:before{content:'✧';position:absolute;left:0;top:0;background:linear-gradient(135deg,var(--pink),var(--pink-deep));-webkit-background-clip:text;color:transparent;font-weight:700}
+    .reviews-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:10px}
+    .stars{letter-spacing:2px;font-size:14px;background:linear-gradient(135deg,var(--pink),var(--pink-deep));-webkit-background-clip:text;background-clip:text;color:transparent}
+    .quote{font-style:italic;margin:8px 0 4px}.name{font-size:13px;color:var(--muted)}
     .review-buttons{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:18px}
     .contact{display:grid;grid-template-columns:1.2fr .8fr;gap:22px}@media (max-width:820px){.contact{grid-template-columns:1fr}}
     input,textarea{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--border);background:#0f0f11;color:#f6f2f3}textarea{min-height:120px;resize:vertical}
